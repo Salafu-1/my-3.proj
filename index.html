@@ -1,5 +1,5 @@
-<!DocType html>
-<hmtl lan="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Calculator App</title>
@@ -12,37 +12,37 @@
         
         <div class="calculator">
             <!--display screen-->
-            <input type="tex" id="display" disable/>
+            <input type="text" id="display" disabled/>
             <!--Button Grid-->
             <div class="button">
-                
-                <button onclick="appendexValue(`C`)">C</button>
-                <button onclick="appendexValue"(`()`)>()</button>
-                <button onclick="appendexValue"(`%`)>%</button>
-                <button onclick="appendexValue"(`/`)>/</button>
+
+                <button onclick="appendValue(`C`)">C</button>
+                <button onclick="appendValue(`(`)">(`</button>
+                <button onclick="appendValue(`%`)">%</button>
+                <button onclick="appendValue(`/`)">/</button>
                 <br>
-                <button onclick="appendexValue"(`7`)>7</button>
-                <button onclick="appendexValue"(`8`)>8</button>
-                <button onclick="appendexValue"(`9`)>9</button>
-                <button onclick="appendexValue"(`*`)>*</button>
+                <button onclick="appendValue(`7`)">7</button>
+                <button onclick="appendValue(`8`)">8</button>
+                <button onclick="appendValue(`9`)">9</button>
+                <button onclick="appendValue(`*`)">*</button>
                 <br>
-                <button onclick="appendexValue"(`4`)>4</button>
-                <button onclick="appendexValue"(`5`)>5</button>
-                <button onclick="appendexValue"(`6`)>6</button>
-                <button onclick="appendexValue"(`-`)>-</button>
+                <button onclick="appendValue(`4`)">4</button>
+                <button onclick="appendValue(`5`)">5</button>
+                <button onclick="appendValue(`6`)">6</button>
+                <button onclick="appendValue(`-`)">-</button>
                 <br>
-                <button onclick="appendexValue"(`1`)>1</button>
-                <button onclick="appendexValue"(`2`)>2</button>
-                <button onclick="appendexValue"(`3`)>3</button>
-                <button onclick="appendexValue"(`+`)>+</button>
+                <button onclick="appendValue(`1`)">1</button>
+                <button onclick="appendValue(`2`)">2</button>
+                <button onclick="appendValue(`3`)">3</button>
+                <button onclick="appendValue(`+`)">+</button>
                 <br>
-                <button onclick="appendexValue"(`.`)>.</button>
-                <button onclick="appendexValue"(`0`)>0</button>
-                <button onclick="appendexValue"(`#`)>#</button>
-                <button onclick="calculate ()">=</button>
+                <button onclick="appendValue(`.`)">.</button>
+                <button onclick="appendValue(`0`)">0</button>
+                <button onclick="appendValue(`#`)">#</button>
+                <button onclick="calculate()">=</button>
          </div>
         </div>
         <!--Link to external JavaScript file-->
-        <script src="Script.js"></script>
+        <script src="script.js"></script>
     </body>
 </hmtl>

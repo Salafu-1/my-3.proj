@@ -1,21 +1,21 @@
-//script.js
+//JavaScript.js
 
-function appenValue(Value){
-    document.getElementById(`display`).Value+=value;
+function appenValue(value){
+    document.getElementById(`display`).value+=value;
 }
 
-functionclearDisplay()
+function clearDisplay()
 {
    
  document.getElementById(`display`).value=""; 
 }
 
-functioncalculate()
+function calculate()
 {
-    const display=document.getElementById(`display`);
-    try{
-        display.value=eval(display);
-    }catch{
-        display.value=`Error`;
+    const display = document.getElementById(`display`);
+    try {
+        display.value = eval(display.value);
+    } catch {
+        display.value = `Error`;
     }
 }
