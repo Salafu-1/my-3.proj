@@ -1,1 +1,1 @@
-# my-3.proj
+# my-3.project
